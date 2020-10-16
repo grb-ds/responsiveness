@@ -59,16 +59,19 @@ si es grande, los 3 divs deben estar uno al lado del otro.
     }
     #small {        
         position: absolute;
+        background-color: #FF2940;
         
     }        
-    #medium {
+    #medium {        
         display: none;
         position: absolute;
+        background-color: #29FF40;
         
     }
     #large {
         display: none;
         position: relative;
+        background-color: #2940FF;
     }
         
    /* p {
@@ -85,13 +88,16 @@ si es grande, los 3 divs deben estar uno al lado del otro.
     #small {
         display: none;
         width: 66%;
+        background-color: #FF2940;
     }
     #medium {
         width: 33%;
+        background-color: #29FF40;
     }
     #large {
         display: none;
         width: 100%;
+        background-color: #2940FF;
     }
     
    /* p {
@@ -112,47 +118,80 @@ si es grande, los 3 divs deben estar uno al lado del otro.
    .flex-container {
         display: flex;
         flex-direction: row;
+        align-items: stretch;
     }
 
-    #small {
+   /*#small {
         display: none;
+        background-color: #FF2940;
        
     }
     #medium {
         display: none;
-       
+        background-color: #29FF40;
+               
     }
+    #large {        
+        background-color: #2940FF;      
+           
+    }*/
 
     /************* SMALL   *****************/
     /*#small {        
         position: absolute;
+        background-color: #FF2940;
+        
         
     }
     #medium {        
         position: absolute;
+        background-color: #29FF40;
         
     }
     #large {     
         position: relative;
+        background-color: #2940FF;
     }*/
     /****************************************/
 
   /*************  MEDIUM *****************/
-   /*#small {        
+   #small {        
         
         width: 66%;
+        background-color: #FF2940;
         
     }
     #medium {        
        
         width: 33%;
+        background-color: #29FF40;
         
     }
     large {     
         
         width: 100%;
-    } */
+        background-color: #2940FF;
+
+    }
    /*****************************************/
     
+   /********LARGE**********/
+  /* flex-container {
+    display: flex;
+    flex-direction: row;
+    }
+
+    #small {
+        
+        background-color: #FF2940;
+        
+        
+    }
+    #medium {        
+        background-color: #29FF40;
+      
+           
+    }*/
+   /**********************/
 }
 
