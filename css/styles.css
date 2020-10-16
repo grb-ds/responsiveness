@@ -55,6 +55,7 @@ si es grande, los 3 divs deben estar uno al lado del otro.
     body {
         background-color: #FF2940;
         text-align: center;
+        font-size: calc(1em + 1vw)
     }
     #small {        
         position: absolute;
@@ -70,15 +71,16 @@ si es grande, los 3 divs deben estar uno al lado del otro.
         position: relative;
     }
         
-    p {
+   /* p {
         font-size:1.2em;
-    }
+    }*/
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1023px) {
     body {
         background-color: #29FF40;
         text-align: center;
+        font-size: calc(1em + 1vw)
     }
     #small {
         display: none;
@@ -92,18 +94,20 @@ si es grande, los 3 divs deben estar uno al lado del otro.
         width: 100%;
     }
     
-    p {
+   /* p {
         font-size: 15px;
-    }
+    }*/
 }
 @media only screen and (min-width: 1024px) {
     body {
         background-color: #2940FF;
         text-align: center;
+        font-size: calc(1em + 1vw)
     }
-    p {
-        font-size: 25px;
-    }
+   /* p {
+        
+        font-size: calc(1em + 1vw)
+    }*/
 
    .flex-container {
         display: flex;
