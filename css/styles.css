@@ -121,7 +121,7 @@ si es grande, los 3 divs deben estar uno al lado del otro.
         align-items: stretch;
     }
 
-   /*#small {
+   #small {
         display: none;
         background-color: #FF2940;
        
@@ -134,7 +134,7 @@ si es grande, los 3 divs deben estar uno al lado del otro.
     #large {        
         background-color: #2940FF;      
            
-    }*/
+    }
 
     /************* SMALL   *****************/
     /*#small {        
@@ -155,7 +155,7 @@ si es grande, los 3 divs deben estar uno al lado del otro.
     /****************************************/
 
   /*************  MEDIUM *****************/
-   #small {        
+   /*#small {        
         
         width: 66%;
         background-color: #FF2940;
@@ -172,7 +172,7 @@ si es grande, los 3 divs deben estar uno al lado del otro.
         width: 100%;
         background-color: #2940FF;
 
-    }
+    }*/
    /*****************************************/
     
    /********LARGE**********/
